@@ -1,0 +1,159 @@
+ex1
+justify-content: flex-end;
+
+ex2
+justify-content: center;
+
+ex3
+justify-content: space-around;
+
+ex4
+justify-content: space-between;
+
+ex5
+align-items: flex-end;
+
+ex6
+justify-content: center;
+align-items: center;
+
+ex7
+justify-content: space-around;
+align-items: flex-end;
+
+ex8
+flex-direction: row-reverse;
+
+ex9
+flex-direction: column;
+
+ex10
+flex-direction: row-reverse;
+justify-content: flex-end;
+
+ex11
+flex-direction: column; justify-content: flex-end
+
+ex12
+flex-direction: column-reverse; justify-content: space-between;
+
+ex13
+flex-direction: row-reverse; justify-content: center; align-items: flex-end
+
+ex14
+order: -2;
+
+ex15
+order -2
+
+ex16
+order: 2; align-self: flex-end;
+
+ex17
+flex-wrap: wrap;
+
+ex18
+flex-direction: column; flex-wrap: wrap
+
+ex19
+flex-flow: column wrap; 
+
+ex20
+flex-flow: wrap column;
+
+ex21
+align-content: flex-start
+
+ex22
+align-content: flex-end;
+
+ex23
+flex-direction: column-reverse; align-content: center;
+
+ex24
+flex-flow:column-reverse wrap-reverse;
+        justify-content:center;
+        align-content:space-between;
+
+<h1> grid css</h1>
+    <h2>Level 1</h2>
+grid-column-start: 3;
+
+<h2>Level 2</h2>
+grid-column-start: 5;
+
+<h2>Level 3</h2>
+grid-colunn-end: 4;
+
+<h2>Level 4</h2>
+grid-column-end: 2;
+
+<h2>Level 5</h2>
+grid-column-end: -2;
+
+<h2>Level 6</h2>
+grid-column-start: -3;
+
+<h2>Level 7</h2>
+grid-column-end: span 2;
+
+<h2>Level 8</h2>
+grid-column-end: span 5;
+
+<h2>Level 9</h2>
+grid-column-start: span 3;
+
+<h2>Level 10</h2>
+grid-column: 4 / 6;
+
+<h2>Level 11</h2>
+grid-column: 2 / 5;
+
+<h2>Level 12</h2>
+grid-row-start: 3;
+
+<h2>Level 13</h2>
+grid-row: 3 / 6;
+
+<h2>Level 14</h2>
+grid-column: 2 / 3; grid-row: 5 / 6;
+
+<h2>Level 15</h2>
+grid-column: 2 / 6; grid-row: 1 / 6;
+
+<h2>Level 16</h2>
+grid-area: 1 / 2 / 4 / 6;
+
+<h2>Level 17</h2>
+grid-area: 2 / 3 / 5 / 6;
+
+<h2>Level 18</h2>
+order: 5;
+
+<h2>Level 19</h2>
+order: -1;
+
+<h2>Level 20</h2>
+grid-template-columns: 50% 10% 25% 5% 10%;
+
+<h2>Level 21</h2>
+grid-template-columns: repeat(8, 12.5%);
+
+<h2>Level 22</h2>
+grid-template-columns: 100px 3em 40%;
+
+<h2>Level 23</h2>
+grid-template-columns: 1fr 5fr;
+
+<h2>Level 24</h2>
+grid-template-columns: 50px 1fr 1fr 1fr 50px;
+
+<h2>Level 25</h2>
+grid-template-columns: 75px 3fr 2fr;
+
+<h2>Level 26</h2>
+
+grid-template-rows: repeat(4,12.5px) 1fr
+
+
+

@@ -14,20 +14,28 @@ header {
     margin: 3rem;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 section{
     background-color: #e1e0f7;
-    margin: 5rem;
+    margin: 1rem;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 0.5rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
+    width: 65%;
 }
 
 section h1, h2, h3, a{
     background-color:#e1e0f7;
-    color:#30475E
+    color:#30475E;
 }
 
 section h1 {
